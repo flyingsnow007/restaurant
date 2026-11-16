@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#14281f" />
+    <meta
+      name="description"
+      content="山海食堂，一家认真做中餐的小馆。一蔬一饭，山海相逢。"
+    />
+    <title>山海食堂 | 一蔬一饭，山海相逢</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="山海食堂 回到首页">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" role="img">
+              <path d="M5 9h22M5 16h22M5 23h14" />
+              <circle cx="24" cy="23" r="3" />
+            </svg>
+          </span>
+          <span class="brand-text">
+            <strong>山海食堂</strong>
+            <small>SHANHAI KITCHEN</small>
+          </span>
+        </a>
+
+        <nav class="site-nav" id="site-nav" aria-label="主导航">
+          <a href="#about">关于我们</a>
+          <a href="#menu">菜单</a>
+          <a href="#story">主厨故事</a>
+          <a href="#reviews">顾客评价</a>
+          <a href="#contact">到店信息</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="btn btn-primary btn-small" href="#reservation">预订座位</a>
+          <button
+            class="icon-btn nav-toggle"
+            id="nav-toggle"
+            type="button"
+            aria-label="打开菜单"
+            aria-expanded="false"
+            aria-controls="site-nav"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 7h16M4 12h16M4 17h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <img
+          class="hero-bg"
+          src="assets/images/hero.jpg"
+          alt="山海食堂温暖明亮的餐厅内景"
+          fetchpriority="high"
+        />
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">中式小馆 · 上海愚园路</p>
+          <h1>山海食堂</h1>
+          <p class="hero-tagline">一蔬一饭，山海相逢</p>
+          <p class="hero-copy">
+            用当季食材和慢火细作，把记忆里的家常味道，端到今天的餐桌上。
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">查看菜单</a>
+            <a class="btn btn-ghost" href="#reservation">预订座位</a>
+          </div>
+        </div>
+        <div class="hero-scroll" aria-hidden="true">
+          <span>向下浏览</span>
+          <svg viewBox="0 0 24 24">
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+        </div>
+      </section>
+
+      <section class="quick-info" aria-label="营业信息">
+        <div class="quick-info-inner">
+          <div class="quick-item">
+            <span class="quick-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 2" />
+              </svg>
+            </span>
+            <div>
+              <strong>营业时间</strong>
+              <p>周一至周日 11:00 - 22:00</p>
+            </div>
+          </div>
+          <div class="quick-item">
+            <span class="quick-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z" />
+                <circle cx="12" cy="10" r="2.5" />
+              </svg>
+            </span>
+            <div>
+              <strong>到店地址</strong>
+              <p>上海市静安区愚园路 88 号</p>
+            </div>
+          </div>
+          <div class="quick-item">
+            <span class="quick-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M5 4h4l1.5 4-2 1.5a12 12 0 0 0 6 6l1.5-2 4 1.5v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"
+                />
+              </svg>
+            </span>
+            <div>
+              <strong>预订电话</strong>
+              <p>021-8888 6666</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-inner about-grid">
+          <div class="about-media reveal">
+            <img
+              src="assets/images/about.jpg"
+              alt="主厨在明火灶台前翻炒"
+              loading="lazy"
+            />
+            <div class="about-badge">
+              <strong>12 年</strong>
+              <span>深耕家常风味</span>
+            </div>
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow">关于山海</p>
+            <h2>认真吃饭，是件重要的小事</h2>
+            <p class="lead">
+              山海食堂从一间十张桌的小铺子开始，坚持每天去市场挑当季食材，用最笨的办法慢慢做菜。
+            </p>
+            <p>
+              菜单不长，因为每一道都值得被认真对待。葱要现切，汤要现吊，肉要炖够时间。我们相信，食物会记得这份用心。
+            </p>
+            <ul class="about-points">
+              <li>当日鲜采，卖完即止</li>
+              <li>无预制菜，无半成品</li>
+              <li>四季菜单，跟着节气走</li>
+            </ul>
+            <div class="about-stats">
+              <div>
+                <strong data-count="28">0</strong>
+                <span>道招牌菜</span>
+              </div>
+              <div>
+                <strong data-count="120000">0</strong>
+                <span>位回头客</span>
+              </div>
+              <div>
+                <strong>4.9</strong>
+                <span>顾客评分</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section menu" id="menu">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">当季菜单</p>
+              <h2>今天想好好吃一顿</h2>
+            </div>
+            <p>四类招牌，简单直接。点击分类快速挑选今晚的菜。</p>
+          </div>
+
+          <div class="menu-tabs reveal" role="tablist" aria-label="菜单分类">
+            <button class="menu-tab is-active" type="button" data-filter="all" role="tab" aria-selected="true">
+              全部
+            </button>
+            <button class="menu-tab" type="button" data-filter="signature" role="tab" aria-selected="false">
+              招牌
+            </button>
+            <button class="menu-tab" type="button" data-filter="hot" role="tab" aria-selected="false">
+              热菜
+            </button>
+            <button class="menu-tab" type="button" data-filter="staple" role="tab" aria-selected="false">
+              主食
+            </button>
+            <button class="menu-tab" type="button" data-filter="dessert" role="tab" aria-selected="false">
+              甜点
+            </button>
+          </div>
+
+          <div class="menu-grid">
+            <article class="dish-card reveal" data-category="signature">
+              <div class="dish-image">
+                <img
+                  src="assets/images/dish-red-braised-pork.jpg"
+                  alt="酱色油亮的招牌红烧肉"
+                  loading="lazy"
+                />
+                <span class="dish-tag">每日限量</span>
+              </div>
+              <div class="dish-body">
+                <div class="dish-title">
+                  <h3>招牌红烧肉</h3>
+                  <strong>¥68</strong>
+                </div>
+                <p>慢火三小时，酱香入骨，肥而不腻。</p>
+              </div>
+            </article>
+
+            <article class="dish-card reveal" data-category="signature">
+              <div class="dish-image">
+                <img
+                  src="assets/images/dish-steamed-fish.jpg"
+                  alt="山泉清蒸鲈鱼"
+                  loading="lazy"
+                />
+                <span class="dish-tag">招牌</span>
+              </div>
+              <div class="dish-body">
+                <div class="dish-title">
+                  <h3>山泉清蒸鲈鱼</h3>
+                  <strong>¥88</strong>
+                </div>
+                <p>每日鲜活到店，山泉水清蒸，鲜甜回甘。</p>
+              </div>
+            </article>
+
+            <article class="dish-card reveal" data-category="hot">
+              <div class="dish-image">
+                <img
+                  src="assets/images/dish-kungpao.jpg"
+                  alt="宫保鸡丁"
+                  loading="lazy"
+                />
+                <span class="dish-tag">微辣</span>
+              </div>
+              <div class="dish-body">
+                <div class="dish-title">
+                  <h3>宫保鸡丁</h3>
+                  <strong>¥46</strong>
+                </div>
+                <p>糊辣荔枝口，花生酥脆，鸡肉滑嫩。</p>
+              </div>
+            </article>
+
+            <article class="dish-card reveal" data-category="hot">
+              <div class="dish-image">
+                <img
+                  src="assets/images/dish-dry-pot-cauliflower.jpg"
+                  alt="干锅花菜"
+                  loading="lazy"
+                />
+                <span class="dish-tag">镬气</span>
+              </div>
+              <div class="dish-body">
+                <div class="dish-title">
+                  <h3>干锅花菜</h3>
+                  <strong>¥36</strong>
+                </div>
+                <p>炭火快炒，微辣爽脆，米饭杀手。</p>
+              </div>
+            </article>
+
+            <article class="dish-card reveal" data-category="staple">
+              <div class="dish-image">
+                <img
+                  src="assets/images/dish-scallion-noodles.jpg"
+                  alt="手工葱油拌面"
+                  loading="lazy"
+                />
+                <span class="dish-tag">现擀</span>
+              </div>
+              <div class="dish-body">
+                <div class="dish-title">
+                  <h3>手工葱油拌面</h3>
+                  <strong>¥22</strong>
+                </div>
+                <p>面条现擀，葱油喷香，一碗见底。</p>
+              </div>
+            </article>
+
+            <article class="dish-card reveal" data-category="staple">
+              <div class="dish-image">
+                <img
+                  src="assets/images/dish-xiaolongbao.jpg"
+                  alt="蟹黄小笼包"
+                  loading="lazy"
+                />
+                <span class="dish-tag">现包</span>
+              </div>
+              <div class="dish-body">
+                <div class="dish-title">
+                  <h3>蟹黄小笼包</h3>
+                  <strong>¥32</strong>
+                </div>
+                <p>皮薄汁足，蟹黄入馅，一口爆鲜。</p>
+              </div>
+            </article>
+
+            <article class="dish-card reveal" data-category="dessert">
+              <div class="dish-image">
+                <img
+                  src="assets/images/dish-fermented-rice-dumplings.jpg"
+                  alt="桂花酒酿圆子"
+                  loading="lazy"
+                />
+                <span class="dish-tag">温热</span>
+              </div>
+              <div class="dish-body">
+                <div class="dish-title">
+                  <h3>桂花酒酿圆子</h3>
+                  <strong>¥18</strong>
+                </div>
+                <p>桂香清甜，酒酿温润，圆子软糯。</p>
+              </div>
+            </article>
+
+            <article class="dish-card reveal" data-category="dessert">
+              <div class="dish-image">
+                <img
+                  src="assets/images/dish-red-bean-soup.jpg"
+                  alt="陈皮红豆沙"
+                  loading="lazy"
+                />
+                <span class="dish-tag">慢熬</span>
+              </div>
+              <div class="dish-body">
+                <div class="dish-title">
+                  <h3>陈皮红豆沙</h3>
+                  <strong>¥16</strong>
+                </div>
+                <p>慢熬豆沙，陈皮提香，微甜不腻。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section story" id="story">
+        <div class="section-inner story-grid">
+          <div class="story-copy reveal">
+            <p class="eyebrow">主厨故事</p>
+            <h2>灶台上的三十年</h2>
+            <p class="lead">
+              主厨老周从十六岁起站灶台，跑过小馆、酒楼，最后把店开回了家门口。
+            </p>
+            <p>
+              他不追流行，只记着小时候祖母常说的一句话：菜要等人，不要人等菜。店里每一道菜都按自己的节奏来，该炖的绝不催，该爆的绝不拖。
+            </p>
+            <blockquote>
+              “好的食材不需要复杂，火候和时间会说话。”
+              <cite>周建国 · 主厨</cite>
+            </blockquote>
+          </div>
+          <div class="story-media reveal">
+            <img
+              src="assets/images/hero.jpg"
+              alt="山海食堂用餐区一景"
+              loading="lazy"
+            />
+            <img
+              class="story-media-small"
+              src="assets/images/dish-red-braised-pork.jpg"
+              alt="刚出锅的招牌红烧肉"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery" aria-label="餐厅影像">
+        <div class="gallery-track">
+          <figure>
+            <img src="assets/images/about.jpg" alt="灶台前忙碌的身影" loading="lazy" />
+          </figure>
+          <figure>
+            <img src="assets/images/dish-steamed-fish.jpg" alt="清蒸鲈鱼上桌" loading="lazy" />
+          </figure>
+          <figure>
+            <img src="assets/images/hero.jpg" alt="温暖的用餐空间" loading="lazy" />
+          </figure>
+          <figure>
+            <img src="assets/images/dish-xiaolongbao.jpg" alt="冒着热气的小笼包" loading="lazy" />
+          </figure>
+          <figure>
+            <img src="assets/images/dish-scallion-noodles.jpg" alt="葱油拌面特写" loading="lazy" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section reviews" id="reviews">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">顾客评价</p>
+              <h2>大家坐在一起，吃得开心</h2>
+            </div>
+            <div class="carousel-controls" aria-label="评价切换">
+              <button class="icon-btn" id="review-prev" type="button" aria-label="上一条评价">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M15 6l-6 6 6 6" />
+                </svg>
+              </button>
+              <button class="icon-btn" id="review-next" type="button" aria-label="下一条评价">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M9 6l6 6-6 6" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="review-viewport reveal">
+            <div class="review-track" id="review-track">
+              <figure class="review-card">
+                <div class="review-stars" aria-label="五星评价">
+                  <span aria-hidden="true">★★★★★</span>
+                </div>
+                <blockquote>
+                  红烧肉是我在上海吃过最像小时候味道的，米饭都要多添一碗。
+                </blockquote>
+                <figcaption>
+                  <strong>林女士</strong>
+                  <span>周末常客</span>
+                </figcaption>
+              </figure>
+              <figure class="review-card">
+                <div class="review-stars" aria-label="五星评价">
+                  <span aria-hidden="true">★★★★★</span>
+                </div>
+                <blockquote>
+                  菜单不长，但每一道都做得认真，清蒸鲈鱼的鲜度很惊艳。
+                </blockquote>
+                <figcaption>
+                  <strong>陈先生</strong>
+                  <span>美食博主</span>
+                </figcaption>
+              </figure>
+              <figure class="review-card">
+                <div class="review-stars" aria-label="五星评价">
+                  <span aria-hidden="true">★★★★★</span>
+                </div>
+                <blockquote>
+                  小笼包皮薄汁多，朋友们吃完立刻约了下周再来。
+                </blockquote>
+                <figcaption>
+                  <strong>王小姐</strong>
+                  <span>生日聚餐</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="review-dots" id="review-dots" role="tablist" aria-label="评价页码"></div>
+        </div>
+      </section>
+
+      <section class="section reservation" id="reservation">
+        <div class="section-inner reservation-grid">
+          <div class="reservation-copy reveal">
+            <p class="eyebrow">预订座位</p>
+            <h2>今晚，来吃口热乎的</h2>
+            <p class="lead">
+              散台和包间均可预订。晚餐时段建议提前一天，周末请尽早预约。
+            </p>
+            <ul class="reservation-notes">
+              <li>
+                <strong>午市</strong>
+                <span>11:00 - 14:00</span>
+              </li>
+              <li>
+                <strong>晚市</strong>
+                <span>17:00 - 22:00</span>
+              </li>
+              <li>
+                <strong>包间</strong>
+                <span>6 - 12 人，需提前一天</span>
+              </li>
+            </ul>
+            <p class="reservation-phone">
+              电话预订
+              <a href="tel:02188886666">021-8888 6666</a>
+            </p>
+          </div>
+
+          <form class="reservation-form reveal" id="reservation-form" novalidate>
+            <div class="form-row">
+              <label class="field">
+                <span>姓名</span>
+                <input type="text" name="name" placeholder="怎么称呼您" required />
+              </label>
+              <label class="field">
+                <span>手机号</span>
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="用于确认预订"
+                  pattern="[0-9+\-\s]{6,20}"
+                  required
+                />
+              </label>
+            </div>
+            <div class="form-row">
+              <label class="field">
+                <span>日期</span>
+                <input type="date" name="date" required />
+              </label>
+              <label class="field">
+                <span>时段</span>
+                <select name="time" required>
+                  <option value="">请选择</option>
+                  <option value="lunch">午市 11:00 - 14:00</option>
+                  <option value="dinner">晚市 17:00 - 22:00</option>
+                </select>
+              </label>
+            </div>
+            <label class="field">
+              <span>人数</span>
+              <select name="guests" required>
+                <option value="">请选择人数</option>
+                <option value="1">1 位</option>
+                <option value="2">2 位</option>
+                <option value="3">3 位</option>
+                <option value="4">4 位</option>
+                <option value="5">5 位</option>
+                <option value="6">6 位及以上</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>备注</span>
+              <textarea
+                name="note"
+                rows="3"
+                placeholder="忌口、生日、靠窗等需求（选填）"
+              ></textarea>
+            </label>
+            <button class="btn btn-primary btn-block" type="submit">提交预订</button>
+            <p class="form-tip">提交后我们会尽快电话与您确认。</p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-inner contact-inner">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">到店信息</p>
+            <h2>愚园路上，慢一点</h2>
+            <p>
+              门店藏在愚园路的小巷里，门口有一棵老梧桐。地铁 2 号线江苏路站步行 5 分钟。
+            </p>
+          </div>
+          <div class="contact-cards reveal">
+            <div>
+              <span class="contact-label">地址</span>
+              <strong>上海市静安区愚园路 88 号</strong>
+            </div>
+            <div>
+              <span class="contact-label">电话</span>
+              <strong>021-8888 6666</strong>
+            </div>
+            <div>
+              <span class="contact-label">营业</span>
+              <strong>每日 11:00 - 22:00</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="brand" href="#top">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32" role="img">
+                <path d="M5 9h22M5 16h22M5 23h14" />
+                <circle cx="24" cy="23" r="3" />
+              </svg>
+            </span>
+            <span class="brand-text">
+              <strong>山海食堂</strong>
+              <small>SHANHAI KITCHEN</small>
+            </span>
+          </a>
+          <p>一蔬一饭，山海相逢。</p>
+        </div>
+        <div class="footer-nav">
+          <a href="#about">关于我们</a>
+          <a href="#menu">菜单</a>
+          <a href="#story">主厨故事</a>
+          <a href="#reservation">预订座位</a>
+        </div>
+        <div class="footer-meta">
+          <p>上海市静安区愚园路 88 号</p>
+          <p>021-8888 6666</p>
+          <p>&copy; <span id="year"></span> 山海食堂</p>
+        </div>
+      </div>
+      <div class="footer-credits">
+        <p>
+          菜品与餐厅图片来自 Wikimedia Commons（N509FZ、Infrogmation of New Orleans、François Nguyen、The Pocket、Apeach316、Tbatb、Robigasp、stu_spivack、HanWei's EXP），遵循 CC BY / CC BY-SA 许可。
+        </p>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
