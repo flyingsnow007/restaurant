@@ -1,7 +1,5 @@
 # 山海食堂（Shanhai Kitchen）— Vue 3 版
 
-原静态单页（HTML/CSS/原生 JS）已迁移为 Vue 3 + Vite 组件化工程。页面外观与文案与原版 1:1 保持一致。
-
 ## 技术栈
 
 - Vue 3（`<script setup>` + 组合式 API，JavaScript）
