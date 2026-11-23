@@ -1,4 +1,3 @@
-# 山海食堂（Shanhai Kitchen）— Vue 3 版
 
 ## 技术栈
 
@@ -6,15 +5,6 @@
 - Vite
 - 全局样式：`src/styles.css`（原 `styles.css` 原样保留，未拆分 scoped）
 - 无路由，仍为带锚点的单页；图片静态托管于 `public/assets/images/`
-
-## 常用命令
-
-```bash
-npm install   # 安装依赖
-npm run dev   # 开发服务器
-npm run build # 生产构建，输出到 dist/
-npm run preview # 预览构建产物
-```
 
 ## 目录结构
 
